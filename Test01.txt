@@ -9,3 +9,23 @@ After creating a folder and making sure you are on the right path, you need to i
 Next, you can use status to view the files in the current folder. After that use "git add filename" to add the test file to the command line interface (CLI).
 
 At this point you are ready to post your file into the remote Github.
+
+----------------------------
+Problem and Solution:
+----------------------------
+If you add new changes to your file without committing them to the command line, those changes will not be automatically added to your remote repository  on Github. In order to avoid this problem, you need use the command "git add filename" after you make changes. This will add the new changes to the command line. After that you still need to use the code "git commit -m "a note explaining the new changes" " to commit the changes. When you do this, then you can easily push the new changes onto the remote repository.
+
+The usual commands are:*******
+
+git config --global user.username "Git username"
+then git remote add origin https://github.com/M*******/Git**********.git 
+(Not need for these two commands if you are already connected to the remote repository
+next use "git push origin main"
+
+Now, if you forget to committee new changes and you already pushed the txt file without the new changes then you have to go for document in the remote repository before you can update Github. You will encounter a problem you do not do so.
+
+You can use the "git pull --all" command to download and automatically merge the two systems (local and Github file). When I tried this procedure, I encountered a problem. The  command was successful but I had to quit the terminal. I need to find out if there is any smooth way of getting out of this problem without actually quoting the terminal.
+
+--------------------------------------------------------------------------------------
+There are other options that I haven't tried.  Additional information on what to do can be found at https://www.freecodecamp.org/news/git-pull-remote-branch-how-to-fetch-remote-branches-in-git/.
+------------------------------------------------------------

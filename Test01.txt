@@ -29,3 +29,30 @@ You can use the "git pull --all" command to download and automatically merge the
 --------------------------------------------------------------------------------------
 There are other options that I haven't tried.  Additional information on what to do can be found at https://www.freecodecamp.org/news/git-pull-remote-branch-how-to-fetch-remote-branches-in-git/.
 ------------------------------------------------------------
+
+***Branching, Merging and version Control****
+
+Learning how to branch and merge is quite challenging. The concept of version control is based on the notion that that there are times that you may be engaged in writing multiple codes for different project but you may have to leave those codes and work on a code that is urgent.  How do you go about this task without letting  people see all your codes. The version control feature allows you to do that. If you are currently working on three versions of a code, you can commit the three versions to what we called a "branch" . The purpose of a branch here is to help you work on some codes on a different environment and only bring it to the main platform when they are ready. 
+
+To create a branch use the command "git branch branchname". Use can always use the command   
+"git log --all --graph" to see your current working environment. The arrow points to your current space.
+
+Use git add . and git commit -m "explanation" to add and commit different versions of the code.
+Use "git checkout branchname (or master )" to switch between master and branches.
+If you create a branch, the changes you make in that branch has no effect on the main branch. This is important because you don't want to push changes to the main page when the codes have not been tested to show that they are working.
+
+Assuming you have code for your boss developed through the feature system, you can get it to the main page by creating a new file called "bugfix". This bug fix is a finished product that could come from the branch that you are working on.
+
+
+Merging
+
+what if you are done with working on a branch and you want to get the results back to the main page. You could merge all your codes from the branches to the main page. Where the merge results ends up depends on your current directory. There is no rule on where you want to put the merge results but it makes sense that the final copy of the code goes to the main branch.
+
+
+merge codes : git merge branchname  -m " A message to explain the purpose" (this merges the branch to master). If you don't add the explanation, you will run into some difficulties.
+
+
+
+
+
+

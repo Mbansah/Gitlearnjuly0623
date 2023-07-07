@@ -3,3 +3,9 @@ July 6: I am practicing how to use git
 mkdir means create a folder on your computer
 cd means make a particular follow your current directory
 git status: A code to check the current status of your command environment
+
+After creating a folder and making sure you are on the right path, you need to initialized git by using the " git init" command.
+
+Next, you can use status to view the files in the current folder. After that use "git add filename" to add the test file to the command line interface (CLI).
+
+At this point you are ready to post your file into the remote Github.

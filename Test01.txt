@@ -54,6 +54,8 @@ merge codes : git merge branchname  -m " A message to explain the purpose" (this
 
 Password challenges
 
+I result it by following the instructions from Github. They provided a password and a configuration. Just follow it.
+
 
 
 

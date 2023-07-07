@@ -1,0 +1,5 @@
+July 6: I am practicing how to use git
+
+mkdir means create a folder on your computer
+cd means make a particular follow your current directory
+git status: A code to check the current status of your command environment

@@ -52,6 +52,9 @@ what if you are done with working on a branch and you want to get the results ba
 merge codes : git merge branchname  -m " A message to explain the purpose" (this merges the branch to master). If you don't add the explanation, you will run into some difficulties.
 
 
+Password challenges
+
+
 
 
 

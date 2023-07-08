@@ -56,6 +56,41 @@ Password challenges
 
 I result it by following the instructions from Github. They provided a password and a configuration. Just follow it.
 
+*****************************************************************************
+
+2. Maven
+
+Spend a considerable amount of time just figuring out how to install java. I was downloading the tar file instead of the simple dmg file. That was a nightmare.
+
+
+Installing Maven using Hebrew
+
+The following error pooped up. After reading it is confirmed that following the suggested option works. Ops.. my MacOS is old. I have to at least use Catalina. I like using the older versions!
+
+
+
+Error: The following directories are not writable by your user:
+/usr/local/share/man/man7
+
+You should change the ownership of these directories to your user.
+  sudo chown -R $(whoami) /usr/local/share/man/man7
+
+
+"openjdk: This software does not run on macOS versions older than Catalina.
+Error: maven: Unsatisfied requirements failed this build. "
+
+
+
+
+brew install maven
+brew install ...
+
+Homebrew (website for brew install commands is very important and provide very easy way to install files.
+
+Day 3 was tough!
+
+
+
 
 
 
